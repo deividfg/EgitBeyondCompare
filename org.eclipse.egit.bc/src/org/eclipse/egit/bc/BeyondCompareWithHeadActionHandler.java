@@ -113,7 +113,7 @@ public class BeyondCompareWithHeadActionHandler extends BeyondCompareRepositoryA
 			if (latestFileCommit == null)
 				latestFileCommit = headCommit;
 		} finally {
-			rw.release();
+			rw.close();
 		}
 
 		return latestFileCommit;

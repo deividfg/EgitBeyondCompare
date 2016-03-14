@@ -16,7 +16,7 @@ import org.eclipse.ui.preferences.ScopedPreferenceStore;
 public class BeyondCompareEgitPreferencePage extends FieldEditorPreferencePage
 		implements IWorkbenchPreferencePage {
 	private static final String SETTING_BEYONDCOMPARE_EXECUTABLE_PATH = "egit.bc.BeyondCompareExecutableLocation";
-	private static final String DEFAULT_BEYONDCOMPARE_EXECUTABLE_PATH = "C:/Program Files (x86)/Beyond Compare 3/BComp.exe";
+	private static final String DEFAULT_BEYONDCOMPARE_EXECUTABLE_PATH = "/usr/bin/bcompare";
 	
 	
 	public BeyondCompareEgitPreferencePage() {

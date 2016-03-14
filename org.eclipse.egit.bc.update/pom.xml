@@ -4,14 +4,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>al.franzis.eclipse</groupId>
   <artifactId>org.eclipse.egit.bc.update</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
   <packaging>eclipse-repository</packaging>
   <repositories>
     <!-- P2 repositories used by Tycho to resolve OSGi dependencies -->
     <repository>
-        <id>kepler</id>
+        <id>mars</id>
         <layout>p2</layout>
-        <url>http://download.eclipse.org/releases/kepler</url>
+        <url>http://download.eclipse.org/releases/mars</url>
     </repository>
     <repository>
         <id>galileoTest</id>

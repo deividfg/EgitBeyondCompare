@@ -39,7 +39,7 @@ public class BeyondCompareUtil {
 		if ( beyondCompareCommand == null )
 			return;
 		
-		exec(beyondCompareCommand, leftFile, rightFile, "/rightreadonly"); //$NON-NLS-1$
+		exec(beyondCompareCommand, leftFile, rightFile ); //$NON-NLS-1$
 	}
 
 	/**
